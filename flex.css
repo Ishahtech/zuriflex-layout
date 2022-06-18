@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:hsl(0, 0%, 95%) ;
+    font-size: 15px;
+    
+   
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em;
+    height: 450px;
+    
+    
+}
+
+ .sedans h1{
+        color:hsl(0, 0%, 95%) ;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-family: 'Big Shoulders Display', cursive;
+}
+
+.sedans p{
+   
+    color:hsla(0, 0%, 100%, 0.75) ;
+    padding-bottom: 44px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    }
+
+.sedans button{
+    background-color:hsl(0, 0%, 95%);
+        color:hsl(31, 77%, 52%) ;
+        border-radius: 22px; 
+        border: 2px solid hsl(31, 77%, 52%) ;
+        padding:8px 14px;
+        font-family: 'Lexend Deca', sans-serif;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+    height: 450px;
+    
+    }
+        
+.suvs h1{
+        color:hsl(0, 0%, 95%) ;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-family: 'Big Shoulders Display', cursive;
+ }
+        
+.suvs p{
+    color:hsla(0, 0%, 100%, 0.75) ;
+    padding-bottom: 44px;
+    font-family: 'Lexend Deca', sans-serif;
+   
+ }
+
+ .sedans p{
+   
+    color:hsla(0, 0%, 100%, 0.75) ;
+    padding-bottom: 44px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    }
+
+    .suvs button{
+background-color:hsl(0, 0%, 95%);
+color: hsl(184, 100%, 22%);
+ border-radius: 22px;
+ border: 2px solid hsl(184, 100%, 22%)  ;
+ padding:8px 14px;
+font-family: 'Lexend Deca', sans-serif;
+    }
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 3em;
+    height: 450px;
+} 
+
+.luxury h1{
+    color:hsl(0, 0%, 95%) ;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.luxury p{
+    height: 24px;
+    color:hsla(0, 0%, 100%, 0.75) ;
+    padding-bottom: 44px;
+    font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .luxury button{
+        background-color:hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+         border-radius: 22px;
+         border: 2px solid hsl(179, 100%, 13%)  ;
+         padding:8px 14px;
+        font-family: 'Lexend Deca', sans-serif;
+            }
+
+    
